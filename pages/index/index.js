@@ -45,7 +45,7 @@ Page({
     }
   },
   onTabItemTap: function(){
-    alert("onTabItemTap")
+    console.log("trigger onTabItemTap")
   },
   getUserInfo: function(e) {
     console.log(e)

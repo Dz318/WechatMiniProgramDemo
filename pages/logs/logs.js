@@ -11,5 +11,10 @@ Page({
         return util.formatTime(new Date(log))
       })
     })
+  },
+  back: function(){
+    wx.navigateBack({
+      delta: "../index/index",
+    })
   }
 })
