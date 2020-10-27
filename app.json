@@ -5,24 +5,24 @@
     "pages/editor/editor"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "FirstminiProgramDemo",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "FirstminiAppDemo",
+    "backgroundColor": "#DDDDDD"
   },
+  "entryPagePath": "pages/editor/editor",  
   "tabBar": {
-    "position": "bottom",
-    "backgroundColor": "gray",
-    "color": "#FFF",
+    "color": "#000000",
+    "selectedColor": "#6e9eea",
+    "backgroundColor": "#DDDDDD",
+    "borderStyle": "black",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "首页"
     },{
-      "pagePath": "pages/logs/logs",
-      "text": "日志"
-    },{
       "pagePath": "pages/editor/editor",
       "text": "写作"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
     }]
   },
   "debug": true,
