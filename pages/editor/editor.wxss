@@ -1,0 +1,5 @@
+/* pages/editor/editor.wxss */
+.title{
+  font-size: 20px;
+  font-weight: 400;
+}

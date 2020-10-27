@@ -1,0 +1,5 @@
+<!--pages/editor/editor.wxml-->
+<view>
+  <text class = "title">editor page</text>
+  <editor placeholder="日记本"></editor>
+</view>

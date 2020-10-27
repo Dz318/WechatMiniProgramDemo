@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/editor/editor"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "FirstminiProgramDemo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "backgroundColor": "gray",
+    "color": "#FFF",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    },{
+      "pagePath": "pages/editor/editor",
+      "text": "写作"
+    }]
+  },
+  "debug": true,
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
